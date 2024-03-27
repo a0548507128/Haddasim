@@ -1,0 +1,114 @@
+body{
+    background-color:white;
+    direction: rtl;
+}
+.mainPage{
+  display: flex;
+  justify-content:center;
+ }
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color:#0777c7d7;
+  color: white;
+  border-bottom: 3px solid #000000;
+}
+#navBut{
+  background-color:#ffffff;
+  border:2px solid #666666;
+  color:#666666;
+  font-family:Arial;
+  font-size:17px;
+  font-weight:bold;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  padding-left:2% ;
+  padding-right:2% ;
+  text-decoration:none;
+}
+.butTitle, .addBut {
+  background-color:rgb(232, 232, 232);
+  border:2px solid #0777c7d7;
+  color:#666666;
+  font-family:Arial;
+  font-size:190%;
+  font-weight:bold;
+  padding:2% 1%;
+  text-decoration:none;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+.addBut{
+  margin: 0px; 
+  margin-top:10%;
+  margin-right: 10px;
+  height: 50%;
+  padding:1% 2%;
+  font-size: 150%;
+  cursor: pointer;
+}
+.newForm,.memberDetailsForm{
+  margin-top: 2%;
+  margin-right: 15%;
+  text-align: center;
+  background-color: lightgray;
+  height:75vh;
+  width: 70%;
+  border: 3px solid #000000;
+}
+.memberDetailsForm{
+  margin-right: 3%;
+  width: 40%;
+}
+#vaccineTable{
+  border:2px solid #0777c7d7;
+  background-color: white;
+  margin-right: 18%;
+  margin-left: 18%;
+  margin-top: 3%;
+}
+#memberDetails{
+  display: flex;
+  justify-content: center;
+}
+.inTitleDetails, .inTitleDetails2{
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color:#ffffff;
+  border:2px solid #0777c7d7;
+  display:inline-block;
+  color:#666666;
+  font-family:Arial;
+  font-size:17px;
+  font-weight:bold;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+  padding-left:5px ;
+  padding-right:5px ;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+  width: 200px;
+  margin-top: 0.3%;
+}
+ .inTitleDetails2{
+  width: 25%;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
+
+ .membersInfo{
+  font-size: 20px;
+  font-weight:bold;
+  margin-right: 3%;
+  margin-left: 3%;
+  color:#666666;
+  margin-bottom: 0px;
+}
+.imgD{
+  height: 15%;
+  width: 10%;
+}
